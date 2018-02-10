@@ -34,4 +34,6 @@ img {
 body {
   font-family: 'Montserrat-Bold', sans-serif;
   background-color: #eaeaea;
+  font-size: 1.166vmax;
+  line-height: 1.416vmax;
 }
