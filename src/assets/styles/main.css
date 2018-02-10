@@ -24,3 +24,14 @@ li, a {
   list-style-type: none;
   text-decoration: none;
 }
+
+img {
+  height: auto;
+  max-width: 100%;
+  width: auto\9;
+}
+
+body {
+  font-family: 'Montserrat-Bold', sans-serif;
+  background-color: #eaeaea;
+}
