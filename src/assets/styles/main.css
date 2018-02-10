@@ -37,3 +37,19 @@ body {
   font-size: 1.166vmax;
   line-height: 1.416vmax;
 }
+
+.wrap {
+  width: 81.66vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dark {
+  background-color: #2e2e30;
+  color: #ffffff;
+}
+
+.gray {
+  background-color: #838d8f;
+  color: #daddde;
+}
