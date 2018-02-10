@@ -6,6 +6,10 @@ $headers-color: #2c3949; */
   100% { transform: translateX(0); }
 }
 
+.anime {
+  transition: all 200ms linear;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -53,3 +57,37 @@ body {
   background-color: #838d8f;
   color: #daddde;
 }
+
+#top {
+  width: 100%;
+  height: 9.16vmax;/* расчет от большего в случае поворотоа зкрана*/
+}
+
+#top .wrap,
+#menu .wrap {
+  height: inherit;/*центровка по высоте*/
+}
+
+div.btn {
+  border-radius: 0.33vw;
+  padding: 0.66vw 1.33vw;
+  font-size: 0.83vw;
+  text-transform: uppercase;
+  line-height: 1vw;
+  cursor: pointer;
+}
+
+#sign {
+  border: 1px solid #7e7e7e;
+  svg {
+    margin-right: 1.83vmax;
+    width: 1.33vw;
+    height: 1.33vw;
+  }
+}
+
+#sign:hover {
+  background-color: #ededed;
+  color: #2e2e30;
+}
+
