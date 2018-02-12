@@ -418,8 +418,6 @@ template {
   display: none;
 }
 
-/* @import './lib/bootstrap.css'; */
-
 /* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
 
 @font-face {
@@ -806,10 +804,10 @@ div.btn {
 }
 
 #sign svg {
-    margin-right: 1.83vmax;
-    width: 1.33vw;
-    height: 1.33vw;
-  }
+  margin-right: 1.83vmax;
+  width: 1.33vw;
+  height: 1.33vw;
+}
 
 #sign:hover {
   background-color: #ededed;
@@ -829,19 +827,19 @@ div.btn {
 }
 
 #location span, #currency span {
-    font-family: 'Montserrat-Bold', sans-serif;
-    color: #ffffff;
-    font-size: 0.83vw;
-    line-height: 1vw;
-    margin-left: 1.5vw;
-    cursor: pointer;
-  }
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #ffffff;
+  font-size: 0.83vw;
+  line-height: 1vw;
+  margin-left: 1.5vw;
+  cursor: pointer;
+}
 
 #logo a {
     display: block;
     font-size: 4.66vmax;
     line-height: 2.33vmax;
-  }
+}
 
 #currency {
   margin-left: 0;
@@ -856,10 +854,10 @@ div.btn {
 }
 
 #cart svg {
-    width: 1.25vmax;
-    height: 1.16vmax;
-    margin-right: 1.5vmax;
-  }
+  width: 1.25vmax;
+  height: 1.16vmax;
+  margin-right: 1.5vmax;
+}
 
 #cart:hover {
   background-color: #8ad592;
@@ -869,6 +867,60 @@ div.btn {
 #cart:hover svg {
   fill: #ffffff;
 }
+
+#menu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 4.16vmax;
+}
+
+#main_nav, #main_nav li, #main_nav a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  height: inherit;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main_nav a {
+  padding: 0 1.5vmax;
+  color: #3c3d41;
+  font-size: 1.08vmax;
+  line-height: 2.75vmax;
+  text-transform: uppercase;
+}
+
+#main_nav a:hover {
+  background-color: #3c3d41;
+  color: #ffffff;
+}
+
+#search_button {
+  position: absolute;
+  right: 0;
+  top: -webkit-calc(50% - 0.75vmax);
+  top: calc(50% - 0.75vmax);
+  cursor: pointer;
+}
+
+#search_button svg {
+    width: 1.5vmax;
+    height: 1.5vmax;
+  }
 
 /* Large Devices, Wide Screens */
 

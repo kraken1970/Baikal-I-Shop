@@ -79,11 +79,12 @@ div.btn {
 
 #sign {
   border: 1px solid #7e7e7e;
-  svg {
-    margin-right: 1.83vmax;
-    width: 1.33vw;
-    height: 1.33vw;
-  }
+}
+
+#sign svg {
+  margin-right: 1.83vmax;
+  width: 1.33vw;
+  height: 1.33vw;
 }
 
 #sign:hover {
@@ -102,22 +103,22 @@ div.btn {
   font-size: 1.16vw;
   line-height: 1.41vw;
   margin-left: 5.25vmax;
-  span {
-    font-family: 'Montserrat-Bold', sans-serif;
-    color: #ffffff;
-    font-size: 0.83vw;
-    line-height: 1vw;
-    margin-left: 1.5vw;
-    cursor: pointer;
-  }
 }
 
-#logo {
-  a {
+#location span,
+#currency span {
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #ffffff;
+  font-size: 0.83vw;
+  line-height: 1vw;
+  margin-left: 1.5vw;
+  cursor: pointer;
+}
+
+#logo a {
     display: block;
     font-size: 4.66vmax;
     line-height: 2.33vmax;
-  }
 }
 
 #currency {
@@ -130,11 +131,12 @@ div.btn {
   color: #8ad592;
   font-size: 0.83vw;
   line-height: 1vw;
-  svg {
-    width: 1.25vmax;
-    height: 1.16vmax;
-    margin-right: 1.5vmax;
-  }
+}
+
+#cart svg {
+  width: 1.25vmax;
+  height: 1.16vmax;
+  margin-right: 1.5vmax;
 }
 
 #cart:hover {
@@ -144,4 +146,44 @@ div.btn {
 
 #cart:hover svg {
   fill: #ffffff;
+}
+
+#menu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 4.16vmax;
+}
+
+#main_nav,
+#main_nav li,
+#main_nav a {
+  display: flex;
+  flex-flow: row nowrap;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+#main_nav a {
+  padding: 0 1.5vmax;
+  color: #3c3d41;
+  font-size: 1.08vmax;
+  line-height: 2.75vmax;
+  text-transform: uppercase;
+}
+
+#main_nav a:hover {
+  background-color: #3c3d41;
+  color: #ffffff;
+}
+
+#search_button {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 0.75vmax);
+  cursor: pointer;
+  svg {
+    width: 1.5vmax;
+    height: 1.5vmax;
+  }
 }
