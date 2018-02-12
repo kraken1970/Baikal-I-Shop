@@ -816,6 +816,60 @@ div.btn {
   color: #2e2e30;
 }
 
+#sign:active {
+  opacity: 0.6;
+}
+
+#location, #currency {
+  font-family: 'PTSerifRegular';
+  color: #aaa;
+  font-size: 1.16vw;
+  line-height: 1.41vw;
+  margin-left: 5.25vmax;
+}
+
+#location span, #currency span {
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #ffffff;
+    font-size: 0.83vw;
+    line-height: 1vw;
+    margin-left: 1.5vw;
+    cursor: pointer;
+  }
+
+#logo a {
+    display: block;
+    font-size: 4.66vmax;
+    line-height: 2.33vmax;
+  }
+
+#currency {
+  margin-left: 0;
+  margin-right: 6.33vmax;
+}
+
+#cart {
+  border: 1px solid #8ad592;
+  color: #8ad592;
+  font-size: 0.83vw;
+  line-height: 1vw;
+}
+
+#cart svg {
+    width: 1.25vmax;
+    height: 1.16vmax;
+    margin-right: 1.5vmax;
+  }
+
+#cart:hover {
+  background-color: #8ad592;
+  color: #ffffff;
+}
+
+#cart:hover svg {
+  fill: #ffffff;
+}
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width : 1200px) {
