@@ -1200,9 +1200,65 @@ main {
   width: 30%;
 }
 
-.price_box input:focus {
+.price_box input:focus, #newsletter input:focus {
   border: none;
   outline: none;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 4.25vmax 0;
+  width: 100%;
+  min-height: 20.25vmax;
+}
+
+#footer_nav a {
+  text-transform: uppercase;
+  font-size: 1vmax;
+  line-height: 2.5vmax;
+  color: #3c3d41;
+  padding: 0 1.125vmax;
+}
+
+#footer_nav a:hover {
+  text-decoration: underline;
+}
+
+#footer_nav {
+  margin-bottom: 3vmax;
+}
+
+#newsletter p {
+  color: #3c3d41;
+  font-size: 0.91vmax;
+  letter-spacing: .16vmax;
+  margin-right: 2.16vmax;
+}
+
+#newsletter input {
+  border: none;
+  width: 18.83vmax;
+  padding: 0.91vmax 3vmax 0.91vmax 1.16vmax;
+  background-color: #eee;
+  border-radius: 0.416vmax;
+  color: #878787;
+  font-family: 'Montserrat-Regular';
+  font-size: 1vmax;
+  line-height: 1.16vmax;
+  background-image: url('../../assets/images/input-icon.png');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+#soc_list {
+  margin-top: 2.83vmax;
+}
+
+#soc_list svg {
+  height: 1.25vmax;
+  fill: #838d8f;
+  width: 1.25vmax;
+  margin: 0 1.75vmax;
 }
 
 /* Large Devices, Wide Screens */
