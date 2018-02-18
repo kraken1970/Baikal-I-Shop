@@ -30,5 +30,16 @@ $(function () {
   
   $('input[name="maxPrice"]').val( '$' +
     $('#slider_price').slider('values',1) );
+
+  $('#cart, .title_cart').click(function () {
+    $('#cart_box').toggleClass('open');
+  });
+
+  $('#sign').click(function () {
+    $('#black_fill, #modal').toggleClass('open');
+  });
+  $('#close_mod, #black_fill').click(function () {
+    $('#black_fill, #modal').toggleClass('open');
+  });
 });
 

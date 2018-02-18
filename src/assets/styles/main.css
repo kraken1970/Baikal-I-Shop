@@ -486,7 +486,7 @@ footer {
   font-family: 'Montserrat-Regular';
   font-size: 1vmax;
   line-height: 1.16vmax;
-  background-image: url('../../assets/images/input-icon.png');
+  background-image: url('../images/input-icon.png');
   background-repeat: no-repeat;
   background-position: 95% center;
 }
@@ -500,4 +500,107 @@ footer {
   fill: #838d8f;
   width: 1.25vmax;
   margin: 0 1.75vmax;
+}
+/* end main page */
+/* popup */
+#cart_box {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 100;
+  background-color: #ffffff;
+  width: 35vw;
+  box-shadow: -3px 2px 9px rgba(88,88,88,0.52);
+  transform: translateX(100%);
+  flex-flow: column nowrap;
+}
+
+#cart_box.open {
+  transform: translateX(0);
+}
+
+.title_cart {
+  background-color: #5ba582;
+  width: 100%;
+  height: 4vmax;
+  padding: 1vmax 1.5vmax;
+  color: #ffffff;
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+#next {
+  width: 1.5vmax;
+  height: 1.5vmax;
+}
+
+#order, .submit {
+  width: 100%;
+  height: 4vmax;
+  color: #ffffff;
+  border: none;
+  background-color: rgba(29,132,180,1);
+  font-size: 1.1vmax;
+  text-transform: uppercase;
+}
+
+#black_fill {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 101;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#modal {
+  position: fixed;
+  z-index: 102;
+  width: 30vw;
+  top: 15vh;
+  display: none;
+  left: calc(50% - 15vw);
+}
+
+#black_fill.open,
+#modal.open {
+  display: block !important;
+}
+
+#content_modal {
+  background-color: #ffffff;
+  border-radius: 0.33vmax;
+  padding: 1.5vw;
+  width: 100%;
+}
+
+#close_mod {
+  width: 1.5vmax;
+  height: 1.5vmax;
+  position: absolute;
+  top: -2vmax;
+  right: -2vmax;
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+#content_modal .input {
+  width: 100%;
+  margin-bottom: 1vmax;
+}
+
+#content_modal .input input {
+  width: 100%;
+  height: 3vmax;
+  text-align: center;
+  border-radius: 0.33vmax;
+  border: 1px solid #cccccc;
+  font-size: 1.1vmax;
+}
+
+#content_modal .submit {
+  border-radius: 0.33vmax;
 }
