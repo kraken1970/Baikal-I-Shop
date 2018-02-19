@@ -604,3 +604,27 @@ footer {
 #content_modal .submit {
   border-radius: 0.33vmax;
 }
+
+#search_panel {
+  position: absolute;
+  z-index: 5;
+  height: inherit;
+  background-color: #fff;
+  padding: 1vmax;
+  top: 0;
+  left: 0;
+  width: 96%;
+  display: none;
+}
+
+#search_panel input {
+  width: 100%;
+  border: 1px solid #a5b3b3;
+  height: 2.16vmax;
+  padding: 0;
+  padding-left: 1vmax;
+}
+
+#search_panel.open {
+  display: block;
+}
