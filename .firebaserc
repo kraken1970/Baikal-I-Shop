@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "baical-deb6d"
+  }
+}
